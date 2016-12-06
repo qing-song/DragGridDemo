@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031196BF1DEFB42B0021E930 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 031196BE1DEFB42B0021E930 /* main.m */; };
+		031196C21DEFB42B0021E930 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 031196C11DEFB42B0021E930 /* AppDelegate.m */; };
+		031196C51DEFB42B0021E930 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 031196C41DEFB42B0021E930 /* ViewController.m */; };
+		031196C81DEFB42B0021E930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031196C61DEFB42B0021E930 /* Main.storyboard */; };
+		031196CA1DEFB42B0021E930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 031196C91DEFB42B0021E930 /* Assets.xcassets */; };
+		031196CD1DEFB42B0021E930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031196CB1DEFB42B0021E930 /* LaunchScreen.storyboard */; };
+		031196DC1DEFB7180021E930 /* SDAddItemGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 031196DB1DEFB7180021E930 /* SDAddItemGridView.m */; };
+		031196DF1DEFB72B0021E930 /* SDHomeGridItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 031196DE1DEFB72B0021E930 /* SDHomeGridItemModel.m */; };
+		031196E41DEFB7540021E930 /* SDHomeGridViewListItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 031196E11DEFB7540021E930 /* SDHomeGridViewListItemView.m */; };
+		031196E51DEFB7540021E930 /* SDHomeGridViewListItemViewButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 031196E31DEFB7540021E930 /* SDHomeGridViewListItemViewButton.m */; };
+		031196E81DEFB77D0021E930 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 031196E71DEFB77D0021E930 /* UIView+SDExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		031196BA1DEFB42B0021E930 /* DragGridDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragGridDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		031196BE1DEFB42B0021E930 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		031196C01DEFB42B0021E930 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		031196C11DEFB42B0021E930 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		031196C31DEFB42B0021E930 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		031196C41DEFB42B0021E930 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		031196C71DEFB42B0021E930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		031196C91DEFB42B0021E930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		031196CC1DEFB42B0021E930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		031196CE1DEFB42B0021E930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		031196DA1DEFB7180021E930 /* SDAddItemGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAddItemGridView.h; sourceTree = "<group>"; };
+		031196DB1DEFB7180021E930 /* SDAddItemGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDAddItemGridView.m; sourceTree = "<group>"; };
+		031196DD1DEFB72B0021E930 /* SDHomeGridItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDHomeGridItemModel.h; sourceTree = "<group>"; };
+		031196DE1DEFB72B0021E930 /* SDHomeGridItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDHomeGridItemModel.m; sourceTree = "<group>"; };
+		031196E01DEFB7540021E930 /* SDHomeGridViewListItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDHomeGridViewListItemView.h; sourceTree = "<group>"; };
+		031196E11DEFB7540021E930 /* SDHomeGridViewListItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDHomeGridViewListItemView.m; sourceTree = "<group>"; };
+		031196E21DEFB7540021E930 /* SDHomeGridViewListItemViewButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDHomeGridViewListItemViewButton.h; sourceTree = "<group>"; };
+		031196E31DEFB7540021E930 /* SDHomeGridViewListItemViewButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDHomeGridViewListItemViewButton.m; sourceTree = "<group>"; };
+		031196E61DEFB77D0021E930 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		031196E71DEFB77D0021E930 /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		031196B71DEFB42B0021E930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		031196B11DEFB42B0021E930 = {
+			isa = PBXGroup;
+			children = (
+				031196BC1DEFB42B0021E930 /* DragGridDemo */,
+				031196BB1DEFB42B0021E930 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		031196BB1DEFB42B0021E930 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				031196BA1DEFB42B0021E930 /* DragGridDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		031196BC1DEFB42B0021E930 /* DragGridDemo */ = {
+			isa = PBXGroup;
+			children = (
+				031196D91DEFB7070021E930 /* Category */,
+				031196D81DEFB7010021E930 /* Model */,
+				031196D41DEFB5350021E930 /* GridView */,
+				031196C01DEFB42B0021E930 /* AppDelegate.h */,
+				031196C11DEFB42B0021E930 /* AppDelegate.m */,
+				031196C31DEFB42B0021E930 /* ViewController.h */,
+				031196C41DEFB42B0021E930 /* ViewController.m */,
+				031196C61DEFB42B0021E930 /* Main.storyboard */,
+				031196C91DEFB42B0021E930 /* Assets.xcassets */,
+				031196CB1DEFB42B0021E930 /* LaunchScreen.storyboard */,
+				031196CE1DEFB42B0021E930 /* Info.plist */,
+				031196BD1DEFB42B0021E930 /* Supporting Files */,
+			);
+			path = DragGridDemo;
+			sourceTree = "<group>";
+		};
+		031196BD1DEFB42B0021E930 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				031196BE1DEFB42B0021E930 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		031196D41DEFB5350021E930 /* GridView */ = {
+			isa = PBXGroup;
+			children = (
+				031196E01DEFB7540021E930 /* SDHomeGridViewListItemView.h */,
+				031196E11DEFB7540021E930 /* SDHomeGridViewListItemView.m */,
+				031196E21DEFB7540021E930 /* SDHomeGridViewListItemViewButton.h */,
+				031196E31DEFB7540021E930 /* SDHomeGridViewListItemViewButton.m */,
+				031196DA1DEFB7180021E930 /* SDAddItemGridView.h */,
+				031196DB1DEFB7180021E930 /* SDAddItemGridView.m */,
+			);
+			name = GridView;
+			sourceTree = "<group>";
+		};
+		031196D81DEFB7010021E930 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				031196DD1DEFB72B0021E930 /* SDHomeGridItemModel.h */,
+				031196DE1DEFB72B0021E930 /* SDHomeGridItemModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		031196D91DEFB7070021E930 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				031196E61DEFB77D0021E930 /* UIView+SDExtension.h */,
+				031196E71DEFB77D0021E930 /* UIView+SDExtension.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		031196B91DEFB42B0021E930 /* DragGridDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 031196D11DEFB42B0021E930 /* Build configuration list for PBXNativeTarget "DragGridDemo" */;
+			buildPhases = (
+				031196B61DEFB42B0021E930 /* Sources */,
+				031196B71DEFB42B0021E930 /* Frameworks */,
+				031196B81DEFB42B0021E930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragGridDemo;
+			productName = DragGridDemo;
+			productReference = 031196BA1DEFB42B0021E930 /* DragGridDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		031196B21DEFB42B0021E930 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = qingsong;
+				TargetAttributes = {
+					031196B91DEFB42B0021E930 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GG8NZVPWNG;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 031196B51DEFB42B0021E930 /* Build configuration list for PBXProject "DragGridDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 031196B11DEFB42B0021E930;
+			productRefGroup = 031196BB1DEFB42B0021E930 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				031196B91DEFB42B0021E930 /* DragGridDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		031196B81DEFB42B0021E930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031196CD1DEFB42B0021E930 /* LaunchScreen.storyboard in Resources */,
+				031196CA1DEFB42B0021E930 /* Assets.xcassets in Resources */,
+				031196C81DEFB42B0021E930 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		031196B61DEFB42B0021E930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031196C51DEFB42B0021E930 /* ViewController.m in Sources */,
+				031196C21DEFB42B0021E930 /* AppDelegate.m in Sources */,
+				031196E41DEFB7540021E930 /* SDHomeGridViewListItemView.m in Sources */,
+				031196DF1DEFB72B0021E930 /* SDHomeGridItemModel.m in Sources */,
+				031196E51DEFB7540021E930 /* SDHomeGridViewListItemViewButton.m in Sources */,
+				031196DC1DEFB7180021E930 /* SDAddItemGridView.m in Sources */,
+				031196BF1DEFB42B0021E930 /* main.m in Sources */,
+				031196E81DEFB77D0021E930 /* UIView+SDExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		031196C61DEFB42B0021E930 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				031196C71DEFB42B0021E930 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		031196CB1DEFB42B0021E930 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				031196CC1DEFB42B0021E930 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		031196CF1DEFB42B0021E930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		031196D01DEFB42B0021E930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		031196D21DEFB42B0021E930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GG8NZVPWNG;
+				INFOPLIST_FILE = DragGridDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingsong.DragGridDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		031196D31DEFB42B0021E930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GG8NZVPWNG;
+				INFOPLIST_FILE = DragGridDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingsong.DragGridDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		031196B51DEFB42B0021E930 /* Build configuration list for PBXProject "DragGridDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031196CF1DEFB42B0021E930 /* Debug */,
+				031196D01DEFB42B0021E930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		031196D11DEFB42B0021E930 /* Build configuration list for PBXNativeTarget "DragGridDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031196D21DEFB42B0021E930 /* Debug */,
+				031196D31DEFB42B0021E930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 031196B21DEFB42B0021E930 /* Project object */;
+}
